@@ -69,6 +69,9 @@ TEMPLATES = [
     },
 ]
 
+# my_project/settings.py
+LOGIN_REDIRECT_URL = '/'
+
 WSGI_APPLICATION = 'Web2019.wsgi.application'
 
 
