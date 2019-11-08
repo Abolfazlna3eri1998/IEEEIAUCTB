@@ -10,5 +10,5 @@ urlpatterns = [
     path('index.html',views.homepage, name='index'),
     path('registerform.html',views.register,name='register'),
     path('tamasbama.html',views.contactus,name='contact'),
-    #path('login.html',views.login,name='login')
+    path('login.html',views.login,name='login')
 ]
