@@ -10,4 +10,3 @@ def register(request):
     return render(request,"registerform.html")
 def contactus(request):
     return render(request,"tamasbama.html")
-
