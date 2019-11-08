@@ -9,11 +9,10 @@
     <title>IAUCTB</title>
 </head>
 <body>
-    <div id="navbar" class="ui four item menu">
-        <a id="login" class="item" dideo-checked="true" href="tamasbama.html">Contact Us</a>
-        <a id="login" class="item" dideo-checked="true" href="base.html">Login</a>
-        <a id="register" class="item" dideo-checked="true" href="registerform.html">Register</a>
-        <a id="homepage" class="item" dideo-checked="true" href="index.html">Home Page</a>
+    <div id="navbar" class="ui three item menu">
+        <a id="contact" class="item" dideo-checked="true" href="{% url 'contactus' %}">Contact Us</a>
+        <a id="register" class="item" dideo-checked="true" href="{% url 'register' %}">Register</a>
+        <a id="homepage" class="item" dideo-checked="true" href="{% url 'index' %}">Home Page</a>
     </div>
     <form class="ui form">
   <div class="field">
